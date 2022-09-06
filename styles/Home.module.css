@@ -1,5 +1,7 @@
 .container {
   padding: 0 2rem;
+  background: rgb(10,39,47);
+background: linear-gradient(90deg, rgba(10,39,47,1) 0%, rgba(18,16,16,1) 100%, rgba(0,0,0,1) 100%);
 }
 
 .main {
@@ -31,6 +33,7 @@
 .title a {
   color: #0070f3;
   text-decoration: none;
+  
 }
 
 .title a:hover,
@@ -42,7 +45,10 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 5rem;
+  
+  font-weight: 500;
+  
 }
 
 .title,
@@ -51,7 +57,7 @@
 }
 
 .description {
-  margin: 4rem 0;
+  margin: 1rem 0 3rem;
   line-height: 1.5;
   font-size: 1.5rem;
 }
